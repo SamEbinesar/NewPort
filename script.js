@@ -6,6 +6,9 @@ function toggleMenu() {
 function openCalculator() {
     let win = window.open('calcu.html', '_blank', 'width=350,height=500,top=100,left=100,menubar=no,toolbar=no,location=no,status=no,resizable=no');
 }
+function openweather() {
+    let win = window.open('weather.html', '_blank', 'width=350,height=500,top=100,left=100,menubar=no,toolbar=no,location=no,status=no,resizable=no');
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     const menu = document.getElementById("menu");
