@@ -604,6 +604,7 @@ a:hover {
     margin-bottom: 15px;
     background-color: #444;
     color: white;
+    box-sizing: border-box;
 }
 
 /* Textarea */
