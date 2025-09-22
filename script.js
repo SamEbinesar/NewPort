@@ -9,6 +9,9 @@ function openCalculator() {
 function openweather() {
     let win = window.open('weather.html', '_blank', 'width=350,height=500,top=100,left=100,menubar=no,toolbar=no,location=no,status=no,resizable=no');
 }
+function openKSVEG() {
+    window.parent.location.href="https://samebinesar.github.io/KSVEGETABLES.com/";
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     const menu = document.getElementById("menu");

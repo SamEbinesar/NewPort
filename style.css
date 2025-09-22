@@ -500,10 +500,11 @@ nav ul li a:hover, .active {
 
 /* Projects Section Styling */
 #projects {
-    background-color: #0f172a; /* Dark blue background */
+   background: linear-gradient(to right, #0f0c29, #302b63, #08081a); /* Dark blue background */
     padding: 60px ;
     text-align: center;
     transition:0.3sec;
+    
   }
   .projects-container {
     display: flex;
@@ -512,6 +513,7 @@ nav ul li a:hover, .active {
     flex-wrap: wrap;
     margin: 20px auto;
     width: 70%;
+  
     transition: transform 0.3s, background-color 0.3s;
 }
 
@@ -525,10 +527,12 @@ nav ul li a:hover, .active {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     text-align: left;
     
+    
 }
 .project h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    color: rgb(17, 21, 255);
 }
 
 .project p {
@@ -563,7 +567,7 @@ a:hover {
 
 /* Contact Section Styling */
 .contact-section {
-    background-color: #1e1e2f;
+   background: linear-gradient(to right, #0f0c29, #302b63, #08081a);
     padding: 60px;
     text-align: center;
     color: white;
