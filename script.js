@@ -12,7 +12,9 @@ function openweather() {
 function openKSVEG() {
     window.parent.location.href="https://samebinesar.github.io/KSVEGETABLES.com/";
 }
-
+function opentaskbuddy() {
+    window.parent.location.href="https://samebinesar.github.io/Taskbuddy/";
+}
 document.addEventListener("DOMContentLoaded", function () {
     const menu = document.getElementById("menu");
     const menuItems = menu.querySelectorAll("li a");
@@ -67,4 +69,5 @@ function clearDisplay() {
 
 function openCalculator() {
     window.open('calcu.html', '_blank', 'width=350,height=500,top=100,left=500,toolbar=no,menubar=no,scrollbars=no,resizable=no');
+
 }
